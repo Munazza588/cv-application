@@ -1,0 +1,13 @@
+
+.input-div {
+    display: flex;
+    padding-top: 20px;
+}
+
+.title {
+    padding-right: 10px;
+}
+
+.input-box {
+    margin-right: 10px;
+}

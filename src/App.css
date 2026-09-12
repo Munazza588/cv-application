@@ -1,0 +1,44 @@
+.personal-info {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.general-info-section {
+  padding-top: 20px;
+}
+
+.title-tag {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.education-info-section,.experience-info-section {
+  padding-top: 40px;
+}
+
+.education,.experience {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.experience-outer-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section,.bottom-section {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-section {
+  margin-top: 20px;
+}
+
+.personal-info-div,.education-info-section,.experience-info-section{
+  padding-bottom:50px;
+  border: 1px solid gray;
+}
