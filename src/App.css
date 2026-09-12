@@ -15,13 +15,14 @@
 }
 
 .education-info-section,.experience-info-section {
-  padding-top: 40px;
+   padding-top: 20px;
 }
 
 .education,.experience {
   display: flex;
   justify-content: center;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .experience-outer-div {
@@ -32,6 +33,7 @@
 .top-section,.bottom-section {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .bottom-section {
@@ -41,4 +43,11 @@
 .personal-info-div,.education-info-section,.experience-info-section{
   padding-bottom:50px;
   border: 1px solid gray;
+}
+
+.submit-button {
+  padding:10px 30px;
+  margin-top: 20px;
+  background-color: pink;
+  border:none;
 }
