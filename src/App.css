@@ -45,9 +45,43 @@
   border: 1px solid gray;
 }
 
-.submit-button {
+.submit-button,.Edit-button {
   padding:10px 30px;
   margin-top: 20px;
   background-color: pink;
   border:none;
+}
+
+.personal-info-display {
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  margin-right: 20px;
+}
+
+.per-div {
+  margin-top: 20px;
+}
+
+.edu-div-top,.edu-div-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+
+}
+.edu-div-top p ,.edu-div-bottom p{
+  margin-bottom: 10px;
+}
+
+.edu-div {
+  display: flex;
+  justify-content: center;
+}
+
+.res-para {
+  width:500px;
+  text-align: center;
+  margin: 0 auto;
 }
